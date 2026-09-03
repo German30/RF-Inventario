@@ -1,0 +1,77 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "assembleDebug",
+      "type": "process",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": ["assembleDebug", "--console=plain"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": [],
+      "presentation": { "clear": true, "revealProblems": "onProblem" }
+    },
+    {
+      "label": "unit tests",
+      "type": "process",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": ["testDebugUnitTest", "--console=plain"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "emulador: arrancar",
+      "detail": "Arranca el AVD (idempotente: si ya está, no hace nada).",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/scripts/emulator.ps1",
+        "-Avd", "Medium_Phone_API_36"
+      ],
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated", "reveal": "always", "close": true }
+    },
+    {
+      "label": "emulador: asegurar",
+      "detail": "Arranca el emulador solo si no hay ningún dispositivo conectado.",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/scripts/emulator.ps1",
+        "-Avd", "Medium_Phone_API_36", "-IfNoDevice"
+      ],
+      "problemMatcher": [],
+      "presentation": { "panel": "dedicated", "close": true }
+    },
+    {
+      "label": "preparar despliegue",
+      "detail": "emulador: arrancar  ->  assembleDebug",
+      "dependsOrder": "sequence",
+      "dependsOn": ["emulador: arrancar", "assembleDebug"],
+      "problemMatcher": []
+    },
+    {
+      "label": "emulador: instalar + abrir",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/scripts/emulator.ps1", "-Install"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "dispositivo Wi-Fi: desplegar",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/scripts/wifi-deploy.ps1", "-Install"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

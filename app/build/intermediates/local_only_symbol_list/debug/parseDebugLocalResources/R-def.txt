@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string action_cancel
+string action_close
+string action_save
+string add_product
+string app_name
+string camera_permission_denied
+string camera_permission_grant
+string delete_product
+string edit_product
+string empty_state
+string field_location
+string field_name
+string field_quantity
+string field_sku
+string products_title
+string scan
+string scan_found
+string scan_new
+string scan_point_camera
+string scan_use_camera
+string scan_waiting_body
+string scan_waiting_title
+string scan_waiting_vendor
+string search_hint
+string torch
+style Theme.RFInventario
+xml backup_rules
+xml data_extraction_rules

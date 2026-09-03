@@ -1,0 +1,632 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e484a7c9e5f19aef0bd48cf99ed4c1b0\transformed\camera-video-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e42d9d18a8ce6b3ce85519d9d56a68fd\transformed\camera-view-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d97aeb60da5db3a08d2b3f5f174b1d3a\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d43af9cb5479de27c98573c05adb8d61\transformed\camera-core-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\876737ce3c7912bcb09b9e74e7e03469\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\30fc642487ca5b75744f1c163861e0c5\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\598c718f5b3d183f0c75ddec67bd6ba2\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1a33dd68ec44f26ccb58e1e0b4c59e85\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\90ff94dce8ba5e4257b911d19b9ea294\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a824d6706ce2f24a639a341e76164982\transformed\navigation-common-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e42543834e3737ceb6432df422a60259\transformed\navigation-runtime-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\22ac76e94802c21316734daae8d06924\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9b52ccac818a16fc50edf98d7d908ff5\transformed\navigation-runtime-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\21298e9738c73d521efb337e06b66f15\transformed\navigation-compose-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\31b67ad7d37b4c1f17ab839e8dbb4e83\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\4b757a2fcbfd703f160596a4844e79bd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f1502f461e69e0a10d815efd56a96527\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8bf0fd467b81dc345b5010a2a7140689\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bc5ac71d23eb88bf978981373d70ec9a\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9a848f84e1e72c54b92a73c2c754d9d5\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3a5dbf9881c951f28358254012f2ced1\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5aae0675f6106a4969169cf9ea934878\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\37952d548f4a990d911bd0c2a55c083d\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1d4254795f2b532a60adadbf8a2d133d\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1c2d106db40696ec09cebd51d0b780b5\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6d23a1763793bc4adca72ae9d117786a\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f43b6dabce004aa6f659abcde62004c8\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\666f79d62d40ac20634b30ca012f8bdc\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\108154ede4f0afbf32934798abccd9c0\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6903e939fe1a3a7ec04dbe7c3486719e\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9c0a36cd11342d65490fa80a0042128f\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3efaf6fcd25cc20a7389934efe2cbb8c\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\cd1d4c804872e6c022cac1f0fa377bc0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b6fac70e1e7cd7e8c2aa4e6c8bbb1975\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c855c862e08467ccc4cbb13fe5ed0fea\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3f0873293be617c3312df405773e65e5\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1efbfc0ec58e6cda40cd0d56b4f3afc1\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\fef80eb3d90cdde4295d8800d7cd1c11\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c438d593178d33c85a6eeedcfb37fac7\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2ce7e48fecd3817414efbf2e396c7dfc\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2b3de86667aa0ba340efcc6e439bed50\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d24550a15e703fb83990d4406a090d3c\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\91e3a1bb6c145f213fed3fb2800d1ab2\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\21feaec235d68b34d8e88d192724af7f\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1e97465474a36d48a372804cb83094ae\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b6becd3472867fc9a508b9afe7c697e0\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6ff3b9b60717a44553b506dd35f8fbad\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\70be3ba3818d3b29dc972600c21fd5ad\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\17eb8aa3e80b9743c0ee2307b174e1f9\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b2e6ad3e8607023cb751134d90453740\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bee2e3b603318b577dc4f481a48da678\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d1f530f15220cfad46e03d2fc83a1ffb\transformed\activity-compose-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\79a9af4bff75a5c46be1f3f559885607\transformed\activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c6c4d60ded18705bb28e385f364533c8\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9a87be71179ffc0c60d654d839cdbd6a\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\cdcd9016a11282fe4df0e34a2d154275\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e4b461fc238e6ad8825c145002b2a232\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d16bc86f190ce745b1a1fc32d14bd9e7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a1cccfa607fec1005f87db739b178dd3\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f27e7bc43c894dbbb3275997dd9597c9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9c5bb3b8617d355e39cfea9acf16be2f\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e62b532d349b09cf819742a96f6a4aee\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a6ac32c7aa83dcde247b102620ad070d\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0801a378d54e987cf447d9d7630f39d3\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\985ac9af9ce7e07c09b9e7a5334944bf\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\12d0e5814110fe1e0928d2acc26858eb\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bd4def87eedc84b66a3b7703ba4737f5\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6618496edaeeb7492a49792108303a0a\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3579cff50f32a1f026f172aa18178cfe\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5a5d566cdcbed813e5270951e75eb152\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\ae6cadb4f1b7abbc318def4d2e02b764\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\82f126c829034d06de7d9907c1892ec3\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9f359f82570da7a743b9c1300b8b3218\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8699b22cb949d7b565170693d7fc9fc0\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d331eaf87cf3e11e2180485a12a7ffaa\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\443b64f3d8cee4efd171b0d7dc42e948\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9baf9a8be99519f2b79ffc73bbe03222\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7f4bc5944bdf17bcc2ceac22114af95\transformed\firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8c85a6f8d9daf522105a5c43d15e9c34\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\96d3d2b5482681056886cb72e4a152d2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2a4eb454c2385710091815aec4427d97\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:6:22-62
+uses-feature#android.hardware.camera.any
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:7:5-9:36
+	android:required
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:9:9-33
+	android:name
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:8:9-51
+queries
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:12:5-14:15
+package#com.symbol.datawedge
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:13:9-56
+	android:name
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:13:18-53
+application
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:16:5-37:19
+INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:16:5-37:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d43af9cb5479de27c98573c05adb8d61\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d43af9cb5479de27c98573c05adb8d61\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1a33dd68ec44f26ccb58e1e0b4c59e85\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1a33dd68ec44f26ccb58e1e0b4c59e85\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\90ff94dce8ba5e4257b911d19b9ea294\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\90ff94dce8ba5e4257b911d19b9ea294\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b2e6ad3e8607023cb751134d90453740\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b2e6ad3e8607023cb751134d90453740\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bee2e3b603318b577dc4f481a48da678\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bee2e3b603318b577dc4f481a48da678\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5a5d566cdcbed813e5270951e75eb152\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5a5d566cdcbed813e5270951e75eb152\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\443b64f3d8cee4efd171b0d7dc42e948\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\443b64f3d8cee4efd171b0d7dc42e948\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2a4eb454c2385710091815aec4427d97\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2a4eb454c2385710091815aec4427d97\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:22:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:20:9-54
+	android:roundIcon
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:23:9-54
+	tools:targetApi
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:26:9-29
+	android:icon
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:25:9-50
+	android:dataExtractionRules
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:19:9-65
+	android:name
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:17:9-46
+activity#com.rf.inventario.MainActivity
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:27:9-36:20
+	android:label
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:30:13-45
+	android:exported
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:31:13-54
+	android:name
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:28:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e484a7c9e5f19aef0bd48cf99ed4c1b0\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e484a7c9e5f19aef0bd48cf99ed4c1b0\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e42d9d18a8ce6b3ce85519d9d56a68fd\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e42d9d18a8ce6b3ce85519d9d56a68fd\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d97aeb60da5db3a08d2b3f5f174b1d3a\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d97aeb60da5db3a08d2b3f5f174b1d3a\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d43af9cb5479de27c98573c05adb8d61\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d43af9cb5479de27c98573c05adb8d61\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\876737ce3c7912bcb09b9e74e7e03469\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\876737ce3c7912bcb09b9e74e7e03469\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\30fc642487ca5b75744f1c163861e0c5\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\30fc642487ca5b75744f1c163861e0c5\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\598c718f5b3d183f0c75ddec67bd6ba2\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\598c718f5b3d183f0c75ddec67bd6ba2\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1a33dd68ec44f26ccb58e1e0b4c59e85\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1a33dd68ec44f26ccb58e1e0b4c59e85\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\90ff94dce8ba5e4257b911d19b9ea294\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\90ff94dce8ba5e4257b911d19b9ea294\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a824d6706ce2f24a639a341e76164982\transformed\navigation-common-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a824d6706ce2f24a639a341e76164982\transformed\navigation-common-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e42543834e3737ceb6432df422a60259\transformed\navigation-runtime-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e42543834e3737ceb6432df422a60259\transformed\navigation-runtime-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\22ac76e94802c21316734daae8d06924\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\22ac76e94802c21316734daae8d06924\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9b52ccac818a16fc50edf98d7d908ff5\transformed\navigation-runtime-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9b52ccac818a16fc50edf98d7d908ff5\transformed\navigation-runtime-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\21298e9738c73d521efb337e06b66f15\transformed\navigation-compose-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.4] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\21298e9738c73d521efb337e06b66f15\transformed\navigation-compose-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\31b67ad7d37b4c1f17ab839e8dbb4e83\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\31b67ad7d37b4c1f17ab839e8dbb4e83\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\4b757a2fcbfd703f160596a4844e79bd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\4b757a2fcbfd703f160596a4844e79bd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f1502f461e69e0a10d815efd56a96527\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f1502f461e69e0a10d815efd56a96527\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8bf0fd467b81dc345b5010a2a7140689\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8bf0fd467b81dc345b5010a2a7140689\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bc5ac71d23eb88bf978981373d70ec9a\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bc5ac71d23eb88bf978981373d70ec9a\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9a848f84e1e72c54b92a73c2c754d9d5\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9a848f84e1e72c54b92a73c2c754d9d5\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3a5dbf9881c951f28358254012f2ced1\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3a5dbf9881c951f28358254012f2ced1\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5aae0675f6106a4969169cf9ea934878\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5aae0675f6106a4969169cf9ea934878\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\37952d548f4a990d911bd0c2a55c083d\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\37952d548f4a990d911bd0c2a55c083d\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1d4254795f2b532a60adadbf8a2d133d\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1d4254795f2b532a60adadbf8a2d133d\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1c2d106db40696ec09cebd51d0b780b5\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1c2d106db40696ec09cebd51d0b780b5\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6d23a1763793bc4adca72ae9d117786a\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6d23a1763793bc4adca72ae9d117786a\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f43b6dabce004aa6f659abcde62004c8\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f43b6dabce004aa6f659abcde62004c8\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\666f79d62d40ac20634b30ca012f8bdc\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\666f79d62d40ac20634b30ca012f8bdc\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\108154ede4f0afbf32934798abccd9c0\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\108154ede4f0afbf32934798abccd9c0\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6903e939fe1a3a7ec04dbe7c3486719e\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6903e939fe1a3a7ec04dbe7c3486719e\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9c0a36cd11342d65490fa80a0042128f\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9c0a36cd11342d65490fa80a0042128f\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3efaf6fcd25cc20a7389934efe2cbb8c\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3efaf6fcd25cc20a7389934efe2cbb8c\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\cd1d4c804872e6c022cac1f0fa377bc0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\cd1d4c804872e6c022cac1f0fa377bc0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b6fac70e1e7cd7e8c2aa4e6c8bbb1975\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b6fac70e1e7cd7e8c2aa4e6c8bbb1975\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c855c862e08467ccc4cbb13fe5ed0fea\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c855c862e08467ccc4cbb13fe5ed0fea\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3f0873293be617c3312df405773e65e5\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3f0873293be617c3312df405773e65e5\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1efbfc0ec58e6cda40cd0d56b4f3afc1\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1efbfc0ec58e6cda40cd0d56b4f3afc1\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\fef80eb3d90cdde4295d8800d7cd1c11\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\fef80eb3d90cdde4295d8800d7cd1c11\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c438d593178d33c85a6eeedcfb37fac7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c438d593178d33c85a6eeedcfb37fac7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2ce7e48fecd3817414efbf2e396c7dfc\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2ce7e48fecd3817414efbf2e396c7dfc\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2b3de86667aa0ba340efcc6e439bed50\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2b3de86667aa0ba340efcc6e439bed50\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d24550a15e703fb83990d4406a090d3c\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d24550a15e703fb83990d4406a090d3c\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\91e3a1bb6c145f213fed3fb2800d1ab2\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\91e3a1bb6c145f213fed3fb2800d1ab2\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\21feaec235d68b34d8e88d192724af7f\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\21feaec235d68b34d8e88d192724af7f\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1e97465474a36d48a372804cb83094ae\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\1e97465474a36d48a372804cb83094ae\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b6becd3472867fc9a508b9afe7c697e0\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b6becd3472867fc9a508b9afe7c697e0\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6ff3b9b60717a44553b506dd35f8fbad\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6ff3b9b60717a44553b506dd35f8fbad\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\70be3ba3818d3b29dc972600c21fd5ad\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\70be3ba3818d3b29dc972600c21fd5ad\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\17eb8aa3e80b9743c0ee2307b174e1f9\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\17eb8aa3e80b9743c0ee2307b174e1f9\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b2e6ad3e8607023cb751134d90453740\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b2e6ad3e8607023cb751134d90453740\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bee2e3b603318b577dc4f481a48da678\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bee2e3b603318b577dc4f481a48da678\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d1f530f15220cfad46e03d2fc83a1ffb\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d1f530f15220cfad46e03d2fc83a1ffb\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\79a9af4bff75a5c46be1f3f559885607\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\79a9af4bff75a5c46be1f3f559885607\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c6c4d60ded18705bb28e385f364533c8\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\c6c4d60ded18705bb28e385f364533c8\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9a87be71179ffc0c60d654d839cdbd6a\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9a87be71179ffc0c60d654d839cdbd6a\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\cdcd9016a11282fe4df0e34a2d154275\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\cdcd9016a11282fe4df0e34a2d154275\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e4b461fc238e6ad8825c145002b2a232\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e4b461fc238e6ad8825c145002b2a232\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d16bc86f190ce745b1a1fc32d14bd9e7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d16bc86f190ce745b1a1fc32d14bd9e7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a1cccfa607fec1005f87db739b178dd3\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a1cccfa607fec1005f87db739b178dd3\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f27e7bc43c894dbbb3275997dd9597c9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\f27e7bc43c894dbbb3275997dd9597c9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9c5bb3b8617d355e39cfea9acf16be2f\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9c5bb3b8617d355e39cfea9acf16be2f\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e62b532d349b09cf819742a96f6a4aee\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e62b532d349b09cf819742a96f6a4aee\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a6ac32c7aa83dcde247b102620ad070d\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\a6ac32c7aa83dcde247b102620ad070d\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0801a378d54e987cf447d9d7630f39d3\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0801a378d54e987cf447d9d7630f39d3\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\985ac9af9ce7e07c09b9e7a5334944bf\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\985ac9af9ce7e07c09b9e7a5334944bf\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\12d0e5814110fe1e0928d2acc26858eb\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\12d0e5814110fe1e0928d2acc26858eb\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bd4def87eedc84b66a3b7703ba4737f5\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bd4def87eedc84b66a3b7703ba4737f5\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6618496edaeeb7492a49792108303a0a\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\6618496edaeeb7492a49792108303a0a\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3579cff50f32a1f026f172aa18178cfe\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3579cff50f32a1f026f172aa18178cfe\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5a5d566cdcbed813e5270951e75eb152\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5a5d566cdcbed813e5270951e75eb152\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\ae6cadb4f1b7abbc318def4d2e02b764\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\ae6cadb4f1b7abbc318def4d2e02b764\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\82f126c829034d06de7d9907c1892ec3\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\82f126c829034d06de7d9907c1892ec3\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9f359f82570da7a743b9c1300b8b3218\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9f359f82570da7a743b9c1300b8b3218\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8699b22cb949d7b565170693d7fc9fc0\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8699b22cb949d7b565170693d7fc9fc0\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d331eaf87cf3e11e2180485a12a7ffaa\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d331eaf87cf3e11e2180485a12a7ffaa\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\443b64f3d8cee4efd171b0d7dc42e948\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\443b64f3d8cee4efd171b0d7dc42e948\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9baf9a8be99519f2b79ffc73bbe03222\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\9baf9a8be99519f2b79ffc73bbe03222\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7f4bc5944bdf17bcc2ceac22114af95\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7f4bc5944bdf17bcc2ceac22114af95\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8c85a6f8d9daf522105a5c43d15e9c34\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\8c85a6f8d9daf522105a5c43d15e9c34\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\96d3d2b5482681056886cb72e4a152d2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\96d3d2b5482681056886cb72e4a152d2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2a4eb454c2385710091815aec4427d97\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\2a4eb454c2385710091815aec4427d97\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\German Celestino\Documents\Portfolio\RF-Inventario\app\src\main\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d43af9cb5479de27c98573c05adb8d61\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\d43af9cb5479de27c98573c05adb8d61\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\698cdc82200bdd0c5e5a33fe33dffb9d\transformed\camera-camera2-1.4.1\AndroidManifest.xml:31:17-103
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\535444bbcbbce528d1029d53fc67a69d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\e7c1347541caac8808a2dec530a2b717\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\40aea231d7e3cef1846be65d8ab86a77\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\48e22915ff9e25cd1029cb6d3b41e8a3\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\90ff94dce8ba5e4257b911d19b9ea294\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\90ff94dce8ba5e4257b911d19b9ea294\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\90ff94dce8ba5e4257b911d19b9ea294\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5a5d566cdcbed813e5270951e75eb152\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\5a5d566cdcbed813e5270951e75eb152\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b1a7e7ee6fb2104215923b2184faa14\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\415734155689849d277b73cc0ec844ff\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b2e6ad3e8607023cb751134d90453740\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b2e6ad3e8607023cb751134d90453740\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\b2e6ad3e8607023cb751134d90453740\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bee2e3b603318b577dc4f481a48da678\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bee2e3b603318b577dc4f481a48da678\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\bee2e3b603318b577dc4f481a48da678\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.rf.inventario.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.rf.inventario.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\3153b5b5fac8ed2292c14a09dc504f63\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\75111958822a05ecf3ed348eae8af8c4\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\94e07dce0b544719fcc90cda97e009ff\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\db6b8c80127b22b6aeb828548262959c\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\German Celestino\.gradle\caches\8.11.1\transforms\0b4f8574f2db06a370690c0e45fea7eb\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132

@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "android",
+      "request": "launch",
+      "name": "RF Inventario (emulador)",
+      "appSrcRoot": "${workspaceFolder}/app/src/main",
+      "apkFile": "${workspaceFolder}/app/build/outputs/apk/debug/app-debug.apk",
+      "adbPort": 5037,
+      "autoStartADB": false,
+      "staleBuild": "ignore",
+      "launchActivity": "com.rf.inventario.MainActivity",
+      "targetDevice": "emulator-5554",
+      "preLaunchTask": "preparar despliegue"
+    },
+    {
+      "type": "android",
+      "request": "launch",
+      "name": "RF Inventario (dispositivo Wi-Fi)",
+      "appSrcRoot": "${workspaceFolder}/app/src/main",
+      "apkFile": "${workspaceFolder}/app/build/outputs/apk/debug/app-debug.apk",
+      "adbPort": 5037,
+      "autoStartADB": false,
+      "staleBuild": "ignore",
+      "launchActivity": "com.rf.inventario.MainActivity",
+      "preLaunchTask": "assembleDebug"
+    },
+    {
+      "type": "node-terminal",
+      "request": "launch",
+      "name": "Emulador: solo arrancar",
+      "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\emulator.ps1\" -Avd Medium_Phone_API_36",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
