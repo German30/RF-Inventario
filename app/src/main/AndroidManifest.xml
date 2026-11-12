@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Llamadas HTTP al backend Spring (rf-inventario-panel-api). -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Feedback háptico al escanear. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <!-- Camera is only used as a fallback barcode scanner; the app runs fine without it. -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature
@@ -15,7 +22,7 @@
 
     <application
         android:name=".InventarioApplication"
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +30,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RFInventario"
+        android:usesCleartextTraffic="${cleartextAllowed}"
         tools:targetApi="31">
+
+        <!-- Android Enterprise "App Restrictions": el MDM puede pushear la URL
+             del backend por dispositivo/grupo sin recompilar. Ver docs/RELEASE.md. -->
+        <meta-data
+            android:name="android.content.APP_RESTRICTIONS"
+            android:resource="@xml/app_restrictions" />
+
+        <!-- Compartir CSV exportados desde la caché de la app. -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.files"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

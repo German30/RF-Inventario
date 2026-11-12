@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English. Keep keys in sync with values/strings.xml. -->
+<resources>
+    <string name="app_name">RF Inventory</string>
+    <string name="products_title">Inventory</string>
+    <string name="add_product">New product</string>
+    <string name="edit_product">Edit product</string>
+    <string name="delete_product">Delete product</string>
+    <string name="product_detail">Product</string>
+    <string name="field_name">Name</string>
+    <string name="field_sku">SKU / Code</string>
+    <string name="field_quantity">Quantity</string>
+    <string name="field_quantity_total">Total stock</string>
+    <string name="field_location">Location</string>
+    <string name="field_location_main">Main location</string>
+    <string name="field_location_optional">Location (scan the shelf)</string>
+    <string name="field_origin">From (scan the shelf)</string>
+    <string name="field_destination">To (scan the shelf)</string>
+    <string name="field_lot">Lot (optional)</string>
+    <string name="field_lot_required">Lot (required)</string>
+    <string name="field_expiry">Expiry (YYYY-MM-DD)</string>
+    <string name="field_reason">Reason</string>
+    <string name="field_category">Category</string>
+    <string name="field_unit">Unit</string>
+    <string name="field_min_stock">Minimum stock</string>
+    <string name="field_unit_cost">Unit cost</string>
+    <string name="field_alt_codes">Alternative codes (EAN, comma-separated)</string>
+    <string name="field_description">Description</string>
+    <string name="field_tracks_lots">Lot tracking</string>
+    <string name="field_tracks_lots_hint">Requires a lot on every receipt (food, pharma…)</string>
+    <string name="field_scan_product">Scan or type the product code</string>
+    <string name="field_scan_location">Scan or type the location</string>
+    <string name="editor_scan_hint">Scanning here fills the SKU; if it is set, it adds an alternative code.</string>
+    <string name="editor_quantity_note">Changing the total records an adjustment. Use Receive/Issue for movements.</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_back">Back</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_create_product">Create product</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_export_csv">Export CSV</string>
+    <string name="action_less">Less</string>
+    <string name="action_more">More</string>
+    <string name="action_load_more">Load more</string>
+    <string name="action_print_label">Print label</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_retry">Retry</string>
+    <string name="server_checking">Checking the server…</string>
+    <string name="server_unavailable_title">Cannot reach the server</string>
+    <string name="server_incompatible_title">Incompatible server version</string>
+    <string name="server_url">Server: %1$s</string>
+    <string name="action_start">Start</string>
+    <string name="action_view_detail">View full details</string>
+    <string name="empty_state">No products yet.\nAdd the first one with the + button.</string>
+    <string name="empty_search">No matching products.</string>
+    <string name="search_hint">Search by name, SKU, code or category</string>
+    <string name="filter_all">All</string>
+    <string name="filter_low">Low stock</string>
+    <string name="filter_out">Out of stock</string>
+    <string name="badge_low_stock">LOW STOCK</string>
+    <string name="badge_out">OUT OF STOCK</string>
+    <string name="product_sku_location">SKU %1$s · %2$s</string>
+    <string name="products_subtitle_online">%1$d products · synced %2$s</string>
+    <string name="products_subtitle_offline">%1$d products · OFFLINE · last sync %2$s</string>
+    <string name="scan_use_camera">Use camera</string>
+    <string name="scan_point_camera">Point at the barcode</string>
+    <string name="camera_permission_denied">Camera permission is required to scan with the phone.</string>
+    <string name="camera_permission_grant">Grant permission</string>
+    <string name="torch">Torch</string>
+    <string name="scan_unknown_title">Unknown code</string>
+    <string name="scan_unknown">%1$s does not match any product. Create it?</string>
+    <string name="login_title">Sign in to continue</string>
+    <string name="login_code">Operator code</string>
+    <string name="login_pin">PIN</string>
+    <string name="login_submit">Sign in</string>
+    <string name="login_reason_idle">Signed out due to inactivity.</string>
+    <string name="login_reason_expired">Your session expired. Please sign in again.</string>
+    <string name="logout">Sign out</string>
+    <string name="logout_confirm">Sign out on this device?</string>
+    <string name="logout_confirm_pending">There are %1$d unsent operations. They stay on the device and are sent when someone signs in with a connection. Sign out?</string>
+    <string name="session_operator">Operator: %1$s</string>
+    <string name="session_supervisor">Supervisor: %1$s</string>
+    <string name="module_lookup">Look up</string>
+    <string name="module_in">Receive</string>
+    <string name="module_out">Issue</string>
+    <string name="module_transfer">Transfer</string>
+    <string name="module_adjust">Adjust</string>
+    <string name="module_count">Cycle count</string>
+    <string name="module_receive">Receiving</string>
+    <string name="module_pick">Picking</string>
+    <string name="module_location">Location</string>
+    <string name="module_history">History</string>
+    <string name="module_pending">Pending</string>
+    <string name="module_settings">Settings</string>
+    <string name="sync_running">Syncing…</string>
+    <string name="sync_ok">Online · synced %1$s</string>
+    <string name="sync_offline">Offline · last sync %1$s</string>
+    <string name="sync_pending_ops">%1$d operations waiting for connection</string>
+    <string name="sync_failed_ops">%1$d rejected operations: review them</string>
+    <string name="kpi_products">Products</string>
+    <string name="kpi_units">Units</string>
+    <string name="kpi_value">Inventory value</string>
+    <string name="kpi_low">Low stock</string>
+    <string name="kpi_out">Out of stock</string>
+    <string name="kpi_today">Movements today</string>
+    <string name="kpi_receipts">Pending receipts</string>
+    <string name="kpi_picks">Pending picks</string>
+    <string name="kpi_counts">Open counts</string>
+    <string name="alerts_title">Alerts</string>
+    <string name="alert_low_stock">Stock %1$d · minimum %2$d</string>
+    <string name="alert_expiring">Lot %1$s expires %2$s · %3$s · %4$d units</string>
+    <string name="movement_hint">Scan the shelf (optional), then the product. Scanning the same product again adds 1.</string>
+    <string name="movement_hint_transfer">Scan the source shelf, the product and finally the destination shelf.</string>
+    <string name="movement_done">Done: %1$+d · total stock %2$d</string>
+    <string name="movement_queued">Offline: saved on the device. It will be sent when the connection is back.</string>
+    <string name="adjust_add">Add</string>
+    <string name="adjust_remove">Remove</string>
+    <string name="error_date_format">Format YYYY-MM-DD, e.g. 2027-03-31</string>
+    <string name="detail_offline">Offline: showing saved stock; per-location stock and history need a connection.</string>
+    <string name="section_stock_by_location">Stock by location</string>
+    <string name="section_history">Recent movements</string>
+    <string name="lot_expiry">Lot %1$s · expires %2$s</string>
+    <string name="delete_confirm">Delete \"%1$s\"? It has %2$d units. History is kept.</string>
+    <string name="label_printed">Label sent to the printer</string>
+    <string name="yes">Yes</string>
+    <string name="action_kind_create">Created</string>
+    <string name="action_kind_edit">Edited</string>
+    <string name="action_kind_adjust">Adjustment</string>
+    <string name="action_kind_delete">Deleted</string>
+    <string name="action_kind_in">Receipt</string>
+    <string name="action_kind_out">Issue</string>
+    <string name="action_kind_transfer">Transfer</string>
+    <string name="action_kind_count">Count</string>
+    <string name="action_kind_receive">Receiving</string>
+    <string name="action_kind_pick">Picking</string>
+    <string name="action_kind_other">Other</string>
+    <string name="count_new">New count</string>
+    <string name="count_new_hint">Scan the shelf to count, or leave it empty for a free count.</string>
+    <string name="count_empty">No open counts.</string>
+    <string name="count_title">Count #%1$d · %2$s</string>
+    <string name="count_free">free</string>
+    <string name="count_summary">%1$s · %2$d/%3$d counted · %4$s · %5$s</string>
+    <string name="count_progress">%1$s · %2$d of %3$d lines counted</string>
+    <string name="count_blind">Blind count (hide expected quantity)</string>
+    <string name="count_hint">Each scan adds 1. Tap a line to correct the quantity.</string>
+    <string name="count_hint_blind">Blind count: count what is there. Each scan adds 1; tap a line to correct it.</string>
+    <string name="count_registered">%1$s: +%2$d</string>
+    <string name="count_queued">%1$s: +%2$d (offline, will be sent later)</string>
+    <string name="count_location_scanned">That is a location: scan products during a count.</string>
+    <string name="count_differences">%1$d lines with differences · %2$+d units</string>
+    <string name="count_expected">expected %1$d</string>
+    <string name="count_close">Finish count</string>
+    <string name="count_close_confirm">A supervisor will review and apply the differences.</string>
+    <string name="count_apply">Apply differences</string>
+    <string name="count_apply_confirm">Stock will be set to the counted quantities. In a location count, uncounted items become 0.</string>
+    <string name="count_reopen">Reopen</string>
+    <string name="status_open">Open</string>
+    <string name="status_closed">Finished</string>
+    <string name="status_applied">Applied</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_in_progress">In progress</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_unknown">—</string>
+    <string name="orders_empty">No pending orders.</string>
+    <string name="order_summary">%1$s · %2$d/%3$d units · %4$s</string>
+    <string name="order_scanned">%1$s: %2$d ok</string>
+    <string name="order_not_in_order">%1$s is not in this order.</string>
+    <string name="order_store_in">Store in (scan the shelf)</string>
+    <string name="order_take_from">Take from (empty = first to expire)</string>
+    <string name="order_pick_from">Pick from:</string>
+    <string name="order_complete">Close order</string>
+    <string name="order_complete_full">The order is complete.</string>
+    <string name="order_complete_partial">%1$d units are missing: it will be closed as a partial delivery.</string>
+    <string name="location_hint">Scan a shelf label to see what it holds.</string>
+    <string name="location_empty">The location is empty (or you are offline).</string>
+    <string name="location_summary">%1$d items · %2$d units</string>
+    <string name="history_filter_sku">Filter by SKU (or scan)</string>
+    <string name="history_empty">No movements.</string>
+    <string name="pending_explain">Operations made offline. They are sent automatically, in order, when the connection is back.</string>
+    <string name="pending_send_now">Send now</string>
+    <string name="pending_empty">Nothing pending: everything is on the server.</string>
+    <string name="pending_waiting">Waiting for connection</string>
+    <string name="pending_rejected">Rejected by the server</string>
+    <string name="pending_discard_confirm">Discard \"%1$s\"? It will not be applied to the inventory.</string>
+    <string name="settings_beep">Beep on scan</string>
+    <string name="settings_vibrate">Vibrate on scan</string>
+    <string name="settings_scan_adds_one">Each scan adds 1</string>
+    <string name="settings_scan_adds_one_hint">In counts, receiving and picking. Off: asks for the quantity.</string>
+    <string name="settings_idle">Sign out after idle minutes</string>
+    <string name="settings_idle_hint">0 = never. Recommended on shared devices.</string>
+    <string name="settings_locked_mdm">Set by your administrator (MDM)</string>
+    <string name="settings_printer">Label printer (Zebra, ZPL)</string>
+    <string name="settings_printer_host">Printer IP</string>
+    <string name="settings_printer_hint">Port 9100. Without a printer the label is shared as ZPL text.</string>
+    <string name="settings_printer_test">Print test</string>
+    <string name="settings_printer_ok">Test sent</string>
+    <string name="settings_resync">Download the catalog again</string>
+    <string name="settings_resync_done">Catalog updated</string>
+    <string name="settings_about">Version %1$s · server %2$s</string>
+    <string name="restriction_api_base_url_title">Backend URL</string>
+    <string name="restriction_api_base_url_description">RF Inventory Panel API server address for this device/group, e.g. http://192.168.10.5:8082/. If empty, the app uses the URL it was built with.</string>
+    <string name="restriction_idle_title">Idle minutes before sign-out</string>
+    <string name="restriction_idle_description">If greater than 0, enforces idle sign-out and the operator cannot change it.</string>
+    <string name="restriction_printer_title">Label printer IP</string>
+    <string name="restriction_printer_description">Zebra printer (ZPL, port 9100) for the device area.</string>
+    <string-array name="reasons_in">
+        <item>Purchase</item>
+        <item>Customer return</item>
+        <item>Production</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="reasons_out">
+        <item>Counter sale</item>
+        <item>Internal use</item>
+        <item>Damaged</item>
+        <item>Expired</item>
+        <item>Return to supplier</item>
+    </string-array>
+    <string-array name="reasons_transfer">
+        <item>Replenishment</item>
+        <item>Relocation</item>
+        <item>Consolidation</item>
+    </string-array>
+    <string-array name="reasons_adjust">
+        <item>Correction</item>
+        <item>Damaged</item>
+        <item>Missing</item>
+        <item>Surplus</item>
+        <item>Expired</item>
+    </string-array>
+</resources>

@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
     {
       "type": "android",
       "request": "launch",
@@ -24,7 +25,7 @@
       "autoStartADB": false,
       "staleBuild": "ignore",
       "launchActivity": "com.rf.inventario.MainActivity",
-      "preLaunchTask": "assembleDebug"
+      "preLaunchTask": "assembleDebug (Wi-Fi)"
     },
     {
       "type": "node-terminal",

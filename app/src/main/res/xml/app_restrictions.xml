@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Configuración administrada (Android Enterprise "App Restrictions"): el
+  estándar que leen Intune, Workspace ONE, SOTI MobiControl y la consola de
+  Android Enterprise para pushear ajustes por dispositivo o por grupo, sin
+  recompilar ni reinstalar la app. Ver docs/RELEASE.md.
+-->
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction
+        android:key="apiBaseUrl"
+        android:title="@string/restriction_api_base_url_title"
+        android:description="@string/restriction_api_base_url_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+    <restriction
+        android:key="idleTimeoutMinutes"
+        android:title="@string/restriction_idle_title"
+        android:description="@string/restriction_idle_description"
+        android:restrictionType="integer"
+        android:defaultValue="0" />
+    <restriction
+        android:key="printerHost"
+        android:title="@string/restriction_printer_title"
+        android:description="@string/restriction_printer_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+</restrictions>

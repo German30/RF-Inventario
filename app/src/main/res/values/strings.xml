@@ -1,29 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado desde una sola tabla (es/en) para que las traducciones no se desfasen. -->
 <resources>
     <string name="app_name">RF Inventario</string>
     <string name="products_title">Inventario</string>
-    <string name="add_product">Agregar producto</string>
+    <string name="add_product">Nuevo producto</string>
     <string name="edit_product">Editar producto</string>
     <string name="delete_product">Eliminar producto</string>
+    <string name="product_detail">Producto</string>
     <string name="field_name">Nombre</string>
     <string name="field_sku">SKU / Código</string>
     <string name="field_quantity">Cantidad</string>
+    <string name="field_quantity_total">Stock total</string>
     <string name="field_location">Ubicación</string>
+    <string name="field_location_main">Ubicación principal</string>
+    <string name="field_location_optional">Ubicación (escaneá el estante)</string>
+    <string name="field_origin">Origen (escaneá el estante)</string>
+    <string name="field_destination">Destino (escaneá el estante)</string>
+    <string name="field_lot">Lote (opcional)</string>
+    <string name="field_lot_required">Lote (obligatorio)</string>
+    <string name="field_expiry">Vencimiento (AAAA-MM-DD)</string>
+    <string name="field_reason">Motivo</string>
+    <string name="field_category">Categoría</string>
+    <string name="field_unit">Unidad</string>
+    <string name="field_min_stock">Stock mínimo</string>
+    <string name="field_unit_cost">Costo unitario</string>
+    <string name="field_alt_codes">Códigos alternativos (EAN, separados por coma)</string>
+    <string name="field_description">Descripción</string>
+    <string name="field_tracks_lots">Control por lote</string>
+    <string name="field_tracks_lots_hint">Exige lote en cada entrada (alimentos, farmacia…)</string>
+    <string name="field_scan_product">Escaneá o escribí el código del producto</string>
+    <string name="field_scan_location">Escaneá o escribí la ubicación</string>
+    <string name="editor_scan_hint">Escanear acá completa el SKU; si ya está, agrega un código alternativo.</string>
+    <string name="editor_quantity_note">Cambiar el total genera un ajuste en el historial. Para movimientos usá Entrada/Salida.</string>
     <string name="action_save">Guardar</string>
     <string name="action_cancel">Cancelar</string>
-    <string name="empty_state">No hay productos en el inventario.\nAgrega el primero con el botón +.</string>
-    <string name="search_hint">Buscar por nombre o SKU</string>
-
-    <!-- Scanner -->
-    <string name="scan">Escanear código</string>
-    <string name="scan_waiting_title">Esperando lectura…</string>
-    <string name="scan_waiting_body">Presiona el gatillo del lector del equipo para capturar el código.</string>
-    <string name="scan_waiting_vendor">Lector detectado: %1$s</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_back">Volver</string>
+    <string name="action_clear">Quitar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_create_product">Dar de alta</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_discard">Descartar</string>
+    <string name="action_export_csv">Exportar CSV</string>
+    <string name="action_less">Menos</string>
+    <string name="action_more">Más</string>
+    <string name="action_load_more">Cargar más</string>
+    <string name="action_print_label">Imprimir etiqueta</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="server_checking">Verificando el servidor…</string>
+    <string name="server_unavailable_title">No hay conexión con el servidor</string>
+    <string name="server_incompatible_title">Versión del servidor incompatible</string>
+    <string name="server_url">Servidor: %1$s</string>
+    <string name="action_start">Empezar</string>
+    <string name="action_view_detail">Ver ficha completa</string>
+    <string name="empty_state">Todavía no hay productos.\nDá de alta el primero con el botón +.</string>
+    <string name="empty_search">No hay productos que coincidan.</string>
+    <string name="search_hint">Buscar por nombre, SKU, código o categoría</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_low">Bajo mínimo</string>
+    <string name="filter_out">Sin stock</string>
+    <string name="badge_low_stock">BAJO MÍNIMO</string>
+    <string name="badge_out">SIN STOCK</string>
+    <string name="product_sku_location">SKU %1$s · %2$s</string>
+    <string name="products_subtitle_online">%1$d productos · sincronizado %2$s</string>
+    <string name="products_subtitle_offline">%1$d productos · SIN CONEXIÓN · último sync %2$s</string>
     <string name="scan_use_camera">Usar cámara</string>
-    <string name="scan_found">Producto encontrado: %1$s</string>
-    <string name="scan_new">Código nuevo: %1$s</string>
-    <string name="scan_point_camera">Apunta al código de barras</string>
+    <string name="scan_point_camera">Apuntá al código de barras</string>
     <string name="camera_permission_denied">Sin permiso de cámara no se puede escanear con el teléfono.</string>
     <string name="camera_permission_grant">Conceder permiso</string>
-    <string name="action_close">Cerrar</string>
     <string name="torch">Linterna</string>
+    <string name="scan_unknown_title">Código desconocido</string>
+    <string name="scan_unknown">%1$s no corresponde a ningún producto. ¿Querés darlo de alta?</string>
+    <string name="login_title">Iniciá sesión para continuar</string>
+    <string name="login_code">Código de operario</string>
+    <string name="login_pin">PIN</string>
+    <string name="login_submit">Ingresar</string>
+    <string name="login_reason_idle">La sesión se cerró por inactividad.</string>
+    <string name="login_reason_expired">La sesión venció. Volvé a ingresar.</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="logout_confirm">¿Cerrar la sesión en este equipo?</string>
+    <string name="logout_confirm_pending">Hay %1$d operaciones sin enviar. Quedan guardadas en el equipo y se envían cuando alguien vuelva a entrar con red. ¿Cerrar sesión?</string>
+    <string name="session_operator">Operario: %1$s</string>
+    <string name="session_supervisor">Supervisor: %1$s</string>
+    <string name="module_lookup">Consultar</string>
+    <string name="module_in">Entrada</string>
+    <string name="module_out">Salida</string>
+    <string name="module_transfer">Transferir</string>
+    <string name="module_adjust">Ajuste</string>
+    <string name="module_count">Conteo cíclico</string>
+    <string name="module_receive">Recepción</string>
+    <string name="module_pick">Picking</string>
+    <string name="module_location">Ubicación</string>
+    <string name="module_history">Historial</string>
+    <string name="module_pending">Pendientes</string>
+    <string name="module_settings">Ajustes</string>
+    <string name="sync_running">Sincronizando…</string>
+    <string name="sync_ok">En línea · sincronizado %1$s</string>
+    <string name="sync_offline">Sin conexión · último sync %1$s</string>
+    <string name="sync_pending_ops">%1$d operaciones esperando conexión</string>
+    <string name="sync_failed_ops">%1$d operaciones rechazadas: revisalas</string>
+    <string name="kpi_products">Productos</string>
+    <string name="kpi_units">Unidades</string>
+    <string name="kpi_value">Valor del inventario</string>
+    <string name="kpi_low">Bajo mínimo</string>
+    <string name="kpi_out">Sin stock</string>
+    <string name="kpi_today">Movimientos hoy</string>
+    <string name="kpi_receipts">Recepciones pendientes</string>
+    <string name="kpi_picks">Pickings pendientes</string>
+    <string name="kpi_counts">Conteos abiertos</string>
+    <string name="alerts_title">Alertas</string>
+    <string name="alert_low_stock">Stock %1$d · mínimo %2$d</string>
+    <string name="alert_expiring">Lote %1$s vence %2$s · %3$s · %4$d u.</string>
+    <string name="movement_hint">Escaneá el estante (opcional) y después el producto. Re-escanear el mismo producto suma 1.</string>
+    <string name="movement_hint_transfer">Escaneá el estante de origen, el producto y por último el estante de destino.</string>
+    <string name="movement_done">Listo: %1$+d · stock total %2$d</string>
+    <string name="movement_queued">Sin conexión: guardado en el equipo. Se envía solo cuando vuelva la red.</string>
+    <string name="adjust_add">Sumar</string>
+    <string name="adjust_remove">Descontar</string>
+    <string name="error_date_format">Formato AAAA-MM-DD, p. ej. 2027-03-31</string>
+    <string name="detail_offline">Sin conexión: se muestra el stock guardado; las existencias por ubicación y el historial necesitan red.</string>
+    <string name="section_stock_by_location">Stock por ubicación</string>
+    <string name="section_history">Últimos movimientos</string>
+    <string name="lot_expiry">Lote %1$s · vence %2$s</string>
+    <string name="delete_confirm">¿Eliminar «%1$s»? Tiene %2$d unidades. El historial se conserva.</string>
+    <string name="label_printed">Etiqueta enviada a la impresora</string>
+    <string name="yes">Sí</string>
+    <string name="action_kind_create">Alta</string>
+    <string name="action_kind_edit">Edición</string>
+    <string name="action_kind_adjust">Ajuste</string>
+    <string name="action_kind_delete">Baja</string>
+    <string name="action_kind_in">Entrada</string>
+    <string name="action_kind_out">Salida</string>
+    <string name="action_kind_transfer">Transferencia</string>
+    <string name="action_kind_count">Conteo</string>
+    <string name="action_kind_receive">Recepción</string>
+    <string name="action_kind_pick">Picking</string>
+    <string name="action_kind_other">Otro</string>
+    <string name="count_new">Nuevo conteo</string>
+    <string name="count_new_hint">Escaneá el estante a contar, o dejalo vacío para un conteo libre.</string>
+    <string name="count_empty">No hay conteos abiertos.</string>
+    <string name="count_title">Conteo #%1$d · %2$s</string>
+    <string name="count_free">libre</string>
+    <string name="count_summary">%1$s · %2$d/%3$d contadas · %4$s · %5$s</string>
+    <string name="count_progress">%1$s · %2$d de %3$d líneas contadas</string>
+    <string name="count_blind">Conteo ciego (no mostrar lo esperado)</string>
+    <string name="count_hint">Cada escaneo suma 1. Tocá una línea para corregir la cantidad.</string>
+    <string name="count_hint_blind">Conteo ciego: contá lo que hay, sin mirar el sistema. Cada escaneo suma 1; tocá una línea para corregir.</string>
+    <string name="count_registered">%1$s: +%2$d</string>
+    <string name="count_queued">%1$s: +%2$d (sin conexión, se envía al volver la red)</string>
+    <string name="count_location_scanned">Eso es una ubicación: en un conteo se escanean productos.</string>
+    <string name="count_differences">%1$d líneas con diferencia · %2$+d unidades</string>
+    <string name="count_expected">esperado %1$d</string>
+    <string name="count_close">Terminar conteo</string>
+    <string name="count_close_confirm">Queda para que un supervisor revise y aplique las diferencias.</string>
+    <string name="count_apply">Aplicar diferencias</string>
+    <string name="count_apply_confirm">El stock pasará a ser lo contado. En un conteo de ubicación, lo no contado queda en 0.</string>
+    <string name="count_reopen">Reabrir</string>
+    <string name="status_open">Abierto</string>
+    <string name="status_closed">Terminado</string>
+    <string name="status_applied">Aplicado</string>
+    <string name="status_cancelled">Cancelado</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_in_progress">En proceso</string>
+    <string name="status_completed">Completado</string>
+    <string name="status_unknown">—</string>
+    <string name="orders_empty">No hay pedidos pendientes.</string>
+    <string name="order_summary">%1$s · %2$d/%3$d u. · %4$s</string>
+    <string name="order_scanned">%1$s: %2$d ok</string>
+    <string name="order_not_in_order">%1$s no está en este pedido.</string>
+    <string name="order_store_in">Guardar en (escaneá el estante)</string>
+    <string name="order_take_from">Sacar de (vacío = el que vence primero)</string>
+    <string name="order_pick_from">Sacar de:</string>
+    <string name="order_complete">Cerrar pedido</string>
+    <string name="order_complete_full">El pedido está completo.</string>
+    <string name="order_complete_partial">Faltan %1$d unidades: se cerrará como entrega parcial.</string>
+    <string name="location_hint">Escaneá la etiqueta de un estante para ver qué contiene.</string>
+    <string name="location_empty">La ubicación está vacía (o no hay conexión).</string>
+    <string name="location_summary">%1$d ítems · %2$d unidades</string>
+    <string name="history_filter_sku">Filtrar por SKU (o escaneá)</string>
+    <string name="history_empty">Sin movimientos.</string>
+    <string name="pending_explain">Operaciones hechas sin conexión. Se envían solas al volver la red, en el orden en que se hicieron.</string>
+    <string name="pending_send_now">Enviar ahora</string>
+    <string name="pending_empty">No hay nada pendiente: todo está en el servidor.</string>
+    <string name="pending_waiting">Esperando conexión</string>
+    <string name="pending_rejected">Rechazada por el servidor</string>
+    <string name="pending_discard_confirm">¿Descartar «%1$s»? No se aplicará en el inventario.</string>
+    <string name="settings_beep">Sonido al escanear</string>
+    <string name="settings_vibrate">Vibrar al escanear</string>
+    <string name="settings_scan_adds_one">Cada escaneo suma 1</string>
+    <string name="settings_scan_adds_one_hint">En conteo, recepción y picking. Apagado: pregunta la cantidad.</string>
+    <string name="settings_idle">Cerrar sesión tras minutos sin uso</string>
+    <string name="settings_idle_hint">0 = nunca. Recomendado en equipos compartidos.</string>
+    <string name="settings_locked_mdm">Fijado por el administrador (MDM)</string>
+    <string name="settings_printer">Impresora de etiquetas (Zebra, ZPL)</string>
+    <string name="settings_printer_host">IP de la impresora</string>
+    <string name="settings_printer_hint">Puerto 9100. Sin impresora, la etiqueta se comparte como texto ZPL.</string>
+    <string name="settings_printer_test">Imprimir prueba</string>
+    <string name="settings_printer_ok">Prueba enviada</string>
+    <string name="settings_resync">Volver a descargar el catálogo</string>
+    <string name="settings_resync_done">Catálogo actualizado</string>
+    <string name="settings_about">Versión %1$s · servidor %2$s</string>
+    <string name="restriction_api_base_url_title">URL del backend</string>
+    <string name="restriction_api_base_url_description">Dirección del servidor RF Inventario Panel API para este dispositivo/grupo, por ejemplo http://192.168.10.5:8082/. Si se deja vacío, la app usa la URL con la que se compiló.</string>
+    <string name="restriction_idle_title">Minutos de inactividad para cerrar sesión</string>
+    <string name="restriction_idle_description">Si es mayor a 0, fija el cierre de sesión por inactividad y el operario no puede cambiarlo.</string>
+    <string name="restriction_printer_title">IP de la impresora de etiquetas</string>
+    <string name="restriction_printer_description">Impresora Zebra (ZPL, puerto 9100) de la zona del dispositivo.</string>
+    <string-array name="reasons_in">
+        <item>Compra</item>
+        <item>Devolución de cliente</item>
+        <item>Producción</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="reasons_out">
+        <item>Venta mostrador</item>
+        <item>Consumo interno</item>
+        <item>Rotura</item>
+        <item>Vencido</item>
+        <item>Devolución a proveedor</item>
+    </string-array>
+    <string-array name="reasons_transfer">
+        <item>Reposición</item>
+        <item>Reubicación</item>
+        <item>Consolidación</item>
+    </string-array>
+    <string-array name="reasons_adjust">
+        <item>Corrección</item>
+        <item>Rotura</item>
+        <item>Faltante</item>
+        <item>Sobrante</item>
+        <item>Vencido</item>
+    </string-array>
 </resources>

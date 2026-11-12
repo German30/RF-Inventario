@@ -26,6 +26,12 @@
     # Siguientes despliegues (reusa la última dirección):
     .\scripts\wifi-deploy.ps1 -Install
     .\scripts\wifi-deploy.ps1 -Install -Logcat
+
+.EXAMPLE
+    # Solo compilar el APK apuntando a la IP LAN de esta PC (lo usa el launch
+    # "dispositivo Wi-Fi" de VS Code). -ApiBaseUrl fuerza otra URL.
+    .\scripts\wifi-deploy.ps1 -Build
+    .\scripts\wifi-deploy.ps1 -Install -ApiBaseUrl http://192.168.1.230:8082/
 #>
 [CmdletBinding()]
 param(
@@ -33,6 +39,8 @@ param(
     [string]$Code,
     [string]$Connect,
     [switch]$Install,
+    [switch]$Build,
+    [string]$ApiBaseUrl,
     [switch]$Logcat,
     [switch]$Disconnect
 )
@@ -50,6 +58,35 @@ function Resolve-Adb {
     $cmd = Get-Command adb -ErrorAction SilentlyContinue
     if ($cmd) { return $cmd.Source }
     throw "No se encontró adb. Define ANDROID_HOME o agrega platform-tools al PATH."
+}
+
+# El default de Gradle (10.0.2.2) solo existe dentro del emulador; en un
+# teléfono real hay que compilar con la IP LAN de la PC donde corre el backend.
+function Resolve-ApiBaseUrl {
+    if ($ApiBaseUrl) { return $ApiBaseUrl }
+    $ip = Get-NetIPConfiguration |
+        Where-Object { $_.IPv4DefaultGateway -and $_.NetAdapter.Status -eq 'Up' } |
+        Select-Object -First 1 -ExpandProperty IPv4Address |
+        Select-Object -First 1 -ExpandProperty IPAddress
+    if (-not $ip) { throw "No se pudo detectar la IP LAN de la PC. Pasa -ApiBaseUrl http://<IP>:8082/" }
+    return "http://${ip}:8082/"
+}
+
+function Invoke-Gradle([string]$Task) {
+    $url = Resolve-ApiBaseUrl
+    Write-Host "Backend: $url" -ForegroundColor Cyan
+    Push-Location $RepoRoot
+    try {
+        & (Join-Path $RepoRoot 'gradlew.bat') $Task "-PapiBaseUrl=$url" --console=plain
+        if ($LASTEXITCODE -ne 0) { throw "Falló $Task." }
+    } finally {
+        Pop-Location
+    }
+}
+
+if ($Build) {
+    Invoke-Gradle 'assembleDebug'
+    return
 }
 
 $Adb = Resolve-Adb
@@ -93,13 +130,7 @@ if ($Install) {
     }
 
     Write-Host "Compilando e instalando (installDebug) ..." -ForegroundColor Cyan
-    Push-Location $RepoRoot
-    try {
-        & (Join-Path $RepoRoot 'gradlew.bat') installDebug --console=plain
-        if ($LASTEXITCODE -ne 0) { throw "Falló installDebug." }
-    } finally {
-        Pop-Location
-    }
+    Invoke-Gradle 'installDebug'
 
     Write-Host "Lanzando $Activity ..." -ForegroundColor Cyan
     & $Adb -s $Target shell am start -n $Activity | Out-Null
@@ -119,7 +150,7 @@ if ($Logcat) {
     return
 }
 
-if (-not ($Pair -or $Connect -or $Install)) {
+if (-not ($Pair -or $Connect -or $Install -or $Build)) {
     Write-Host ""
     Write-Host "Estado actual:" -ForegroundColor Cyan
     & $Adb devices -l

@@ -3,7 +3,7 @@
 /local.properties
 /.idea
 .DS_Store
-/build
+build/
 /captures
 .externalNativeBuild
 .cxx
@@ -12,4 +12,7 @@ local.properties
 *.aab
 *.keystore
 !debug.keystore
+*.jks
+keystore.properties
 scripts/.wifi-target
+.kotlin/

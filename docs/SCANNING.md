@@ -20,15 +20,34 @@ scanner/
 ├── DataWedgeConfig.kt       # crea el perfil DataWedge por intents
 └── BarcodeAnalyzer.kt       # ImageAnalysis.Analyzer con ML Kit (modelo embebido)
 
-ui/scanner/
-├── ScanAction.kt            # icono en la barra; elige método y entrega ScanResult
-├── HardwareScanSheet.kt     # hoja "esperando lectura…" con fallback a cámara
-└── CameraScannerScreen.kt   # preview a pantalla completa + visor + linterna
+├── ScanRouter.kt            # ¿lo escaneado es una ubicación o un producto? (contra el caché, offline)
+└── ScanFeedback.kt          # beep + vibración: OK / encolado / error
+
+ui/common/Common.kt
+├── ScanListener             # escucha el lector mientras la pantalla está visible (RESUMED)
+├── CameraScanButton         # plan B: cámara (CameraScannerScreen) en un diálogo
+└── CodeEntryField           # tipeo manual (etiqueta dañada) con botón de cámara
 ```
 
 - `MainActivity.dispatchKeyEvent` alimenta `KeyboardWedgeScanner`.
-- `InventarioApplication.onCreate` arranca `DataWedgeScanner` (inerte fuera de Zebra).
-- Flujo: escaneo → `ProductsViewModel.findBySku` → abre el editor (producto existente o nuevo con el SKU precargado) + snackbar.
+- `InventarioApplication.onCreate` arranca `DataWedgeScanner` (inerte fuera de Zebra);
+  `hardwareScans` une ambas fuentes.
+- **Escaneo continuo**: cada pantalla de trabajo (movimientos, conteo, recepción,
+  picking, ubicación, inicio) se suscribe con `ScanListener`; no hace falta tocar
+  un botón antes de cada lectura.
+- **Ruteo automático** (`ScanRouter`): si el código es una ubicación conocida se
+  usa como ubicación (o destino, en una transferencia); si es un producto (SKU o
+  código alternativo) se selecciona; si es desconocido se consulta al backend y,
+  si tampoco existe, se ofrece darlo de alta. Se limpian espacios y prefijos AIM (`]E0`, `]C1`…).
+
+### El Enter del lector no debe llegar a la UI
+
+Un lector en modo teclado termina cada lectura con Enter (o Tab, o CR+LF).
+Compose dispara el click del botón que tenga foco al **soltar** Enter, así que
+si solo se consumiera el `ACTION_DOWN`, cada escaneo "tocaría" el botón
+enfocado (en la práctica: cerraba la sesión). `KeyboardWedgeScanner` consume
+el DOWN **y el UP** del terminador de una lectura, y también un segundo
+terminador pegado. Además, cerrar sesión pide confirmación.
 
 ## Zebra DataWedge
 
@@ -61,5 +80,7 @@ restringirlo a los que realmente se usan.
   añadir un ajuste manual *Auto / Hardware / Cámara* persistido.
 - El sniff de wedge no distingue el barrido si alguien teclea muy rápido en un
   teclado físico; la guarda de 120 ms cubre el caso normal.
-- Sin de-duplicado entre lecturas repetidas de cámara más allá del "primer hit y
-  cierra"; para un modo de conteo continuo habrá que añadir *debounce* por valor.
+- La cámara lee de a un código ("primer hit y cierra"); para trabajo intensivo
+  conviene un lector físico. Un modo de cámara continuo con *debounce* por valor
+  queda como mejora.
+- RFID UHF (Zebra RFID3 API) no está implementado.

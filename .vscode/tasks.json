@@ -64,6 +64,18 @@
       "problemMatcher": []
     },
     {
+      "label": "assembleDebug (Wi-Fi)",
+      "detail": "assembleDebug con la URL del backend apuntando a la IP LAN de esta PC.",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile", "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}/scripts/wifi-deploy.ps1", "-Build"
+      ],
+      "problemMatcher": [],
+      "presentation": { "clear": true, "revealProblems": "onProblem" }
+    },
+    {
       "label": "dispositivo Wi-Fi: desplegar",
       "type": "process",
       "command": "powershell.exe",

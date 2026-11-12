@@ -15,8 +15,13 @@ import kotlinx.coroutines.flow.asSharedFlow
  * apart, the partial buffer is dropped.
  *
  * Feed every [KeyEvent] the Activity receives from `dispatchKeyEvent`.
+ *
+ * Importante: cuando el terminador cierra una lectura se consumen TANTO su
+ * ACTION_DOWN como su ACTION_UP (y un segundo terminador pegado, p. ej. CR+LF).
+ * Compose dispara el click de un botón con foco al SOLTAR Enter: si el UP se
+ * escapara, cada escaneo "tocaría" el botón enfocado (cerrar sesión, borrar...).
  */
-class KeyboardWedgeScanner {
+class KeyboardWedgeScanner(private val clock: () -> Long = System::currentTimeMillis) {
 
     private val _scans = MutableSharedFlow<ScanResult>(
         extraBufferCapacity = 8,
@@ -27,33 +32,49 @@ class KeyboardWedgeScanner {
     private val buffer = StringBuilder()
     private var lastEventAt = 0L
 
-    /** @return true if the event was consumed (only the terminating Enter/Tab of a real scan). */
-    fun onKeyEvent(event: KeyEvent): Boolean {
-        if (event.action != KeyEvent.ACTION_DOWN) return false
+    /** Terminadores cuyo UP todavía hay que tragar. */
+    private val pendingUps = mutableSetOf<Int>()
 
-        val now = System.currentTimeMillis()
+    /** Momento de la última lectura completa: un terminador extra justo después también es del lector. */
+    private var lastScanAt = Long.MIN_VALUE / 2
+
+    /** @return true if the event was consumed (the terminator of a real scan, down and up). */
+    fun onKeyEvent(event: KeyEvent): Boolean = onKey(event.action, event.keyCode, event.unicodeChar)
+
+    internal fun onKey(action: Int, keyCode: Int, unicodeChar: Int): Boolean {
+        val terminator = keyCode == KeyEvent.KEYCODE_ENTER ||
+            keyCode == KeyEvent.KEYCODE_NUMPAD_ENTER ||
+            keyCode == KeyEvent.KEYCODE_TAB
+
+        if (action == KeyEvent.ACTION_UP) {
+            return terminator && pendingUps.remove(keyCode)
+        }
+        if (action != KeyEvent.ACTION_DOWN) return false
+
+        val now = clock()
         if (now - lastEventAt > MAX_GAP_MS) buffer.setLength(0)
         lastEventAt = now
 
-        return when (event.keyCode) {
-            KeyEvent.KEYCODE_ENTER, KeyEvent.KEYCODE_NUMPAD_ENTER, KeyEvent.KEYCODE_TAB -> {
-                val code = buffer.toString().trim()
-                buffer.setLength(0)
-                if (code.length >= MIN_LENGTH) {
-                    _scans.tryEmit(
-                        ScanResult(value = code, symbology = null, source = BarcodeSource.HARDWARE_WEDGE)
-                    )
-                    true
-                } else {
-                    false
-                }
-            }
+        if (!terminator) {
+            if (unicodeChar != 0) buffer.append(unicodeChar.toChar())
+            return false
+        }
 
-            else -> {
-                val ch = event.unicodeChar
-                if (ch != 0) buffer.append(ch.toChar())
-                false
+        val code = buffer.toString().trim()
+        buffer.setLength(0)
+        return when {
+            code.length >= MIN_LENGTH -> {
+                _scans.tryEmit(ScanResult(value = code, symbology = null, source = BarcodeSource.HARDWARE_WEDGE))
+                lastScanAt = now
+                pendingUps += keyCode
+                true
             }
+            // Segundo terminador del mismo escaneo (sufijo CR+LF o Enter+Tab).
+            now - lastScanAt <= MAX_GAP_MS -> {
+                pendingUps += keyCode
+                true
+            }
+            else -> false
         }
     }
 
